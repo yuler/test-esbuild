@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"build": "esbuild src/app.jsx --bundle --outfile=public/bundle.js"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"esbuild": "^0.14.3"
+	}
+}
